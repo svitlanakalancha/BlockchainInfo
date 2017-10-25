@@ -58,3 +58,7 @@ Ethereum, like all blockchain technologies, uses an incentive-driven model of se
 The Ethereum blockchain is in many ways similar to the Bitcoin blockchain, although it does have some differences. The main difference between Ethereum and Bitcoin with regard to the blockchain architecture is that, unlike Bitcoin, Ethereum blocks contain a copy of both the transaction list and the most recent state (the root hash of the merkle patricia trie encoding the state to be more precise). Aside from that, two other values, the block number and the difficulty, are also stored in the block. 
 
 The proof of work algorithm used is called Ethash (a modified version of the Dagger-Hashimoto algorithm) and involves finding a nonce input to the algorithm so that the result is below a certain difficulty threshold. The point in PoW algorithms is that there is no better strategy to find such a nonce than enumerating the possibilities, while verification of a solution is trivial and cheap. Since outputs have a uniform distribution (as they are the result of the application of a hash function), we can guarantee that, on average, the time needed to find such a nonce depends on the difficulty threshold. This makes it possible to control the time of finding a new block just by manipulating the difficulty. 
+
+# Links
+[https://github.com/ethereum/wiki/wiki/White-Paper ]
+[http://www.ethdocs.org/  ]
