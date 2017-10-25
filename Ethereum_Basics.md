@@ -1,10 +1,10 @@
 # Accounts
 
 In Ethereum, the state is made up of objects called "accounts", with each account having a 20-byte address and state transitions being direct transfers of value and information between accounts. An Ethereum account contains four fields: 
-*The nonce, a counter used to make sure each transaction can only be processed once 
-*The account's current ether balance
-*The account's contract code, if present
-*The account's storage (empty by default)
+* The nonce, a counter used to make sure each transaction can only be processed once 
+* The account's current ether balance
+* The account's contract code, if present
+* The account's storage (empty by default)
  
 In general, there are two types of accounts: externally owned accounts, controlled by private keys, and contract accounts, controlled by their contract code.
 
