@@ -61,4 +61,5 @@ The proof of work algorithm used is called Ethash (a modified version of the Dag
 
 # Links
 [https://github.com/ethereum/wiki/wiki/White-Paper ]
+
 [http://www.ethdocs.org/  ]
